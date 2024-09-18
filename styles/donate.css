@@ -1,0 +1,276 @@
+/* header-section */
+.text-section{
+    text-align: center;
+    padding: 60px 200px;
+    background-image: url('../images/donation1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+    color: aliceblue;
+}
+.title{
+    background-color:blueviolet;
+}
+.description{
+    background-color: papayawhip;
+}
+.text{
+    font-weight: 700px;
+    font-size: 700px;
+    
+}
+.primary-btn{
+    color:white;
+    background-color: rgb(255, 0, 60);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 10px;
+    font-family: sans-serif;
+}
+/* donate today section */
+.donate-today{
+    text-align: center;
+    padding: 20px 190px;
+    font-family: sans-serif;
+    
+}
+.title2{
+    margin-top: 80px;
+    font-weight: 700px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.description2{
+    color:grey;
+    
+}
+.money{
+   list-style-type: none;
+   display: flex;
+   gap: 20px;
+   text-align: center;
+   
+}
+.money li{
+    background-color:lavender;
+    padding: 25px 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-weight: 900;
+    color: grey;
+}
+
+li.pink{
+    color: #ff003c;
+    background-color: lightpink;
+}
+.h3{
+    color: lightgray;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px ;
+}
+/* donate plan section */
+.title3{
+    text-align: center;
+    padding-top: 25px;
+}
+.description3{
+    text-align: center;
+    color: grey;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+.all-mandatory{
+    display: flex;
+    margin: 30px 80px;
+    gap: 20px;
+}
+.mandatory1{
+    background-color: lightblue;
+    padding: 20px 5px;
+    border-radius: 4px;
+}
+.mandatory2{
+    background-color:lightpink ;
+    padding: 20px 5px;
+    border-radius: 4px;
+}
+.mandatory3{
+    background-color: lightcoral;
+    padding: 20px 5px;
+    border-radius: 4px;
+}
+div p,.text1,.text2,.text3{
+    color: grey;
+}
+
+/* their live section */
+
+.img-people{
+    width: 350px;
+    height: auto;
+    float:right;
+    padding: 20px 130px 10px 50px;
+}
+
+.title4{
+    padding: 20px 500px 0px 90px;
+    display: block;
+}
+.description-text{
+    color: grey;
+    padding:0px 100px 5px 90px ;
+}
+.different{
+    margin-left: 90px;
+}
+/* they need section */ 
+.second-img{
+    width: 300px;
+    height: auto;
+    float: left;
+    padding: 140px 50px 30px 100px ;
+    
+} 
+.all-text{
+    text-align: left;
+    padding: 100px 130px 40px 320px;
+    font-family:sans-serif;
+}
+.title5{
+    padding-right: 20px;
+    font-size:28px;
+}
+.description4{
+    font-size:smaller;
+    font-family:sans-serif;
+}
+/* get my updates section */
+.updates{
+    text-align: center;
+    padding: 30px 20px;
+}
+.title6{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.description-last{
+    font-size: smaller;
+    padding: 0px 200px 0px 200px;
+    color: grey;
+}
+
+.email-btn{
+    padding: 10px 15px 9px 10px;
+    color: grey;
+    background-color: lightgrey;
+    border: none;
+    border-radius:3px 0px 0px 3px ;
+    
+}
+.gap{
+    display: flex;
+    gap: 0px;
+    
+    
+}
+div.gap,.primary-btn{
+    border-radius: 0px 3px 3px 0px;
+    
+}
+div.gap{
+    background-color:papayawhip;
+    padding: 50px 20px 50px 110px;
+    margin:30px 150px 30px 150px;
+    border-radius: 0px;
+}
+/* last section */
+.last-thing{
+    background-color:black;
+    margin-top: 15px;
+    padding-top: 3px;
+    padding-bottom: 9px;
+    text-align: center;
+}
+.title7{
+    color:#ff003c ;
+    font-size: 20px;
+    padding-top: 5px;
+    font-family:sans-serif ;
+    font-style: italic;
+}
+.small-one{
+    color: lavender;
+    font-size: 10px;
+    font-family:sans-serif;
+    padding-bottom: 8px;
+}
+/* responsive-styles */
+
+@media screen and (max-width: 576px) {
+    .text-section, .donate-today,.description-text,.description-last {
+        padding: 0;
+        background-size: 100%;
+    }
+    .money{
+        display: flex;
+        flex-direction: column;
+    }
+    .description3{
+        padding: 10px 20px;
+    }
+    .all-mandatory{
+        margin: 0;
+    }
+    .img-people{
+        padding: 0;
+        width: 100%;
+    }
+    .title4 {
+        padding: 0;
+    }
+    .second-img{
+        padding: 10px 0px;
+        width: 100%;
+    }
+    .all-text{
+        padding: 0;
+    }
+    div.gap{
+        margin: 0;
+        padding: 70px 30px;
+ }
+    
+}
+@media screen and (min-width: 577px) and (max-width: 992px){
+    .money li{
+        padding: 10px; 
+    }
+    .money{
+        gap: 4px;
+        display: block;
+    }
+    .img-people {
+        padding-right: 200px;
+    }
+    .title4 {
+        padding-top: 300px;
+    }
+    .all-text {
+        padding: 0;
+        padding-top: 80px;
+    }
+    .gap{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+.hide{
+    display: none;
+}
+
+
+    
+
+   
